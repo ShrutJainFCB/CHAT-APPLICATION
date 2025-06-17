@@ -45,3 +45,8 @@ The application is designed to be responsive, ensuring that it works well on var
 - **JavaScript**: The application logic, including real-time messaging and user interactions, is implemented using JavaScript.
 - **Socket.IO**: This library enables real-time, bidirectional communication between clients and servers, allowing for instant message delivery.
 - **Qs Library**: The Qs library is used to parse the URL query string, enabling the retrieval of the username and room information.
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/40837224-fccb-49d5-802b-3f6880d1655c)
+![Image](https://github.com/user-attachments/assets/e3e8e386-9038-4bb3-bb60-abad2562e6a5)
