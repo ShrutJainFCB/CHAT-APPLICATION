@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icons8-chat-64.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chat Application by Shrut</title>
+  </head>
+  <body>
+    <div class="join-container">
+      <header class="join-header">
+        <h1 style="color: #f5f6f7">
+          <i class="fas fa-comment-dots"></i> ShrutChat
+        </h1>
+      </header>
+      <main class="join-main">
+        <form action="chat.html">
+          <div class="form-control">
+            <label style="color: #f5f6f7" for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter username..."
+              required
+            />
+          </div>
+          <!-- Hidden room input -->
+          <input type="hidden" name="room" value="ShrutRoom" />
+
+          <button type="submit" class="btn">Join Chat</button>
+        </form>
+      </main>
+      <footer style="margin-top: 25px">
+        <div style="text-align: center" class="credit">
+          &copy; Shrut Jain
+        </div>
+      </footer>
+    </div>
+
+    <!-- Include Emoji Picker -->
+    <script src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js" type="module"></script>
+  </body>
+</html>
